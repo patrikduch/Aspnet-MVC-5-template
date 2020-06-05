@@ -5,6 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using AspnetMvc5.Core.Interfaces.Facades;
+using AspnetMVC5.Infrastructure.Facades;
+
 
 namespace AspnetMVC5template
 {
@@ -12,6 +15,7 @@ namespace AspnetMVC5template
     {
         protected void Application_Start()
         {
+            UnityConfig.RegisterComponents();
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

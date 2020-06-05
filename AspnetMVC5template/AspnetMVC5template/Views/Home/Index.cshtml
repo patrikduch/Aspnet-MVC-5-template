@@ -1,11 +1,18 @@
-﻿@{
+﻿@model List<AspnetMvc5.Core.Models.Person>
+@{
     ViewBag.Title = "Home Page";
 }
 
 <div class="jumbotron">
     <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h2>Persons</h2>
+    
+    
+    @foreach (var person in Model)
+    {
+        <p>@person.FirstName  @person.LastName</p>
+    }
+
 </div>
 
 <div class="row">

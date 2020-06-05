@@ -2,3 +2,7 @@ AspnetMVC5template/packages/
 AspnetMVC5template/.vs/
 AspnetMVC5template/AspnetMVC5template/obj/
 AspnetMVC5template/AspnetMVC5template/bin/
+AspnetMVC5template/AspnetMVC5.Infrastructure/obj/Debug/
+AspnetMVC5template/AspnetMvc5.Core/obj/Debug/
+AspnetMVC5template/AspnetMvc5.Core/bin/Debug/
+AspnetMVC5template/AspnetMVC5.Infrastructure/bin/Debug/
